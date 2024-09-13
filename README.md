@@ -1,3 +1,3 @@
-Alumno: <Mauricio Harriet>
-División: <314-2>
-Turno: <Noche>
+Alumno: Mauricio Harriet
+División: 314-2
+Turno: Noche
