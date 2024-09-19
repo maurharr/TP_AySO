@@ -1,0 +1,161 @@
+sudo su 
+setxkbmap -layout "latam"
+apt install ubuntu-mate-desktop 
+sudo apt install ubuntu-mate-desktop 
+reboot
+sudo su 
+sudo apt install terminator
+sudo su 
+ssh-keygen --help
+ssh-keygen ed25519
+ssh-keygen -t ed25519
+ls
+cd repogit/
+cd
+ls -la
+cd .ssh/
+ls
+cat id_ed25519.pub 
+cd
+ls
+cd repogit/
+git clone git@github.com:maurharr/TP_AySO.git
+ls
+cd TP_AySO/
+echo "Usuario = $(whoami)"
+echo "Usuario = $(whoami)" > datos_usuario.txt
+ls
+cat datos_usuario.txt 
+git add .
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git config --global user.email "mauricioharriet2@gmail.com"
+git config --global user.name "Mauricio Harriet"
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+grep /prop/cpuinfo
+grep /proc/cpuinfo
+cat /proc/cpuinfo
+grep "model name" /proc/cpuinfo
+grep "model name" /proc/cpuinfo | head -n1
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt 
+cat datos_usuario.txt 
+git commit -m “feat: Añadiendo información de CPU”
+git add .
+git commit -m “feat: Añadiendo información de CPU”
+git status
+cat datos_usuario.txt 
+git commit -m "feat: Añadiendo información de CPU"
+git push
+cat /etc/passwrd
+cat /etc/passwd
+man grep
+cat /etc/passwd
+grep -i "nologin" /etc/passwd
+man grep
+grep -no "nologin" /etc/passwd
+grep -i "nologin" /etc/passwd
+man grep
+grep -i "nologin" /etc/passwd
+cat /etc/passwd
+man grep
+grep -v "nologin" /etc/passwd
+grep -v "nologin" /etc/passwd | head -n10
+grep -v "nologin" /etc/passwd | head -n1
+grep -v "nologin" /etc/passwd | head -n5
+grep -v "nologin" /etc/passwd | head -n10
+man sort
+man "sort via a key"
+man "ordena según una determinada clave"
+man sort via a key
+man 2 sort
+man sort 2
+man sort
+grep -v "nologin" /etc/passwd | head -n10
+grep -v "nologin" /etc/passwd | head -n10 > lista.txt
+ls
+cat lista.txt
+ls
+cat lista.txt
+sort lista.txt 
+sort lista.txt > lista_ordenada
+cat lista_ordenada 
+ls
+rm lista.txt
+ls
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+git push
+ls
+cat << FIN
+Alumno <Mauricio Harriet>
+División: 314-2
+Turno: Noche
+FIN
+
+cat << FIN > README.md
+Alumno <Mauricio Harriet>
+División: <314-2>
+Turno: <Noche>
+FIN
+
+cat README.md 
+git add .
+git commit -m "feat: Agrego mi información al README.md"
+git push
+cat README.md 
+rm README.md
+ls
+cat << FIN > README.md
+Alumno: <Mauricio Harriet>
+División: <314-2>
+Turno: <Noche>
+FIN
+
+ls
+cat READ
+cat README.md 
+git add .
+git commit -m "fix: Agrego mi información al README.md"
+git push
+cat README.md 
+cat << FIN > README.md
+Alumno: Mauricio Harriet
+División: 314-2
+Turno: Noche
+FIN
+
+cat README.md 
+git add .
+git commit -m "fix: Agrego mi info. al README.md"
+git push
+echo "hola\nA todos"
+echo "hola;A todos"
+echo "hola"; echo "hola"
+echo "hola<>a
+echo "hola<>a"
+
+ls -la
+cd repogit/TP_AySO/
+echo "sudo dpcdump" > comando_dump_net
+ls
+echo "sudo dpcdump -i any" > comando_dump_net
+aca comando_dump_net 
+cat comando_dump_net 
+rm comando_dump_net 
+echo "Para realizar un 'dump traffic', se debe de utilizar 'sudo tcpdump" > comando_dump_net
+cat comando_dump_net 
+echo "Para ejecutar el comando se debe de usar 'sudo tcpdump -i any'" > comando_dump_net 
+cat comando_dump_net 
+echo "Para realizar un 'dump traffic', se debe de utilizar 'sudo tcpdump" > comando_dump_net
+cat comando_dump_net 
+rm comando_dump_net 
+echo "Para realizar un 'dump traffic', se debe de utilizar 'sudo tcpdump" > comando_dump_net
+echo "Para ejecutar el comando se debe de usar 'sudo tcpdump -i any'" >> comando_dump_net 
+cat comando_dump_net 
+git commit -m "“ADD: Comando para Capturar y analizar el tráfico de red"
+git add .
+git commit -m "“ADD: Comando para Capturar y analizar el tráfico de red"
+git status
+git push
+history -a
