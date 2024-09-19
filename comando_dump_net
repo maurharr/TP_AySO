@@ -1,0 +1,2 @@
+Para realizar un 'dump traffic', se debe de utilizar 'sudo tcpdump
+Para ejecutar el comando se debe de usar 'sudo tcpdump -i any'
